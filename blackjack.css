@@ -1,0 +1,46 @@
+body {
+    background-image: url("casino.jpg");
+    background-size: cover;
+    font-weight: bold;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: white;
+    height: 100vh;
+}
+
+h1 {
+    color: goldenrod;
+    font-weight: bold;
+    text-shadow: yellow;
+    text-size-adjust: auto;
+    height: 100px;
+
+}
+
+#message-el {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    color: #016f32;
+    width: 150px;
+    height: auto;
+    background: goldenrod;
+    padding-top: 10 px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
